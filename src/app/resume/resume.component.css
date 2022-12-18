@@ -1,0 +1,16 @@
+/* Resume */
+.resume {
+  margin: 20px;
+}
+
+.resume a {
+  color: #242734;
+  text-decoration: none;
+  padding: 0;
+}
+
+.resume a h2 {
+  background-color: #4ec5a0;
+  width: fit-content;
+  padding: 10px;
+}

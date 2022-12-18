@@ -1,0 +1,32 @@
+/* Hero */
+
+.heroDiv {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+.heroText h1 {
+  background-color: #b3beb3;
+  color: #242734;
+  padding: 8px;
+  line-height: 35px;
+  width: fit-content;
+}
+
+.heroText {
+  text-align: left;
+  width: 50%;
+  margin-right: 80px;
+  padding-right: 30px;
+  line-height: 22px;
+}
+
+.profilePic {
+  text-align: right;
+  width: 60%;
+}
+
+.profilePic img {
+  width: 60%;
+}

@@ -1,0 +1,24 @@
+/* Footer */
+
+.footer {
+  width: 100%;
+  display: block;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a img {
+  width: 60px;
+  height: auto;
+  color: black;
+}
