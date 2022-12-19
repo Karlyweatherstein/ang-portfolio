@@ -1,27 +1,24 @@
 /* Nav bar */
-nav {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #515e65;
   width: 100%;
   margin: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-nav h1 {
+.nav h1 {
   padding-left: 8px;
   margin-left: 8px;
-  background-color: #515e65;
 }
 
-nav ul {
+.nav ul {
   color: #b3beb3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-  background-color: #515e65;
   margin-right: 10px;
 }
 
@@ -30,18 +27,16 @@ nav ul li {
   background-color: #515e65;
 }
 
-nav ul li a,
-nav ul li span {
+.nav ul li a,
+.nav ul li span {
   padding: 8px;
-  background-color: #515e65;
   text-decoration: none;
   color: #b3beb3;
 }
 
-nav ul li:hover,
-nav ul li a:hover,
-nav ul li span:hover {
-  background: #4ec5a0;
+.nav ul li:hover,
+.nav ul li a:hover,
+.nav ul li span:hover {
   color: #242734;
   border-radius: 15px;
 }

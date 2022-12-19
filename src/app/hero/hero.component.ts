@@ -12,4 +12,7 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  profile:string = "assets/img/profile.jpg"
+
+
 }
