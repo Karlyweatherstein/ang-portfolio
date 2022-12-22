@@ -1,16 +1,20 @@
 /* Nav bar */
+* {
+  background-color: rgb(226, 193, 198);
+  padding: 5px 0;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .nav h1 {
   padding-left: 8px;
   margin-left: 8px;
+  font-size: xx-large;
 }
 
 .nav ul {
@@ -24,19 +28,20 @@
 
 nav ul li {
   padding: 8px;
-  background-color: #515e65;
+  background-color: #3e4a51;
 }
 
 .nav ul li a,
 .nav ul li span {
-  padding: 8px;
+  padding: 10px;
   text-decoration: none;
-  color: #b3beb3;
+  color: #3e4a51;
+  font-size: large;
 }
 
 .nav ul li:hover,
 .nav ul li a:hover,
 .nav ul li span:hover {
-  color: #242734;
+  color: #12141a;
   border-radius: 15px;
 }
