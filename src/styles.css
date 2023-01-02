@@ -4,3 +4,16 @@
   position: relative;
   margin: 0;
 }
+
+.titles {
+  font-family: "EB Garamond", serif;
+  font-size: xx-large;
+  color: #ae945c;
+  text-align: center;
+  margin: 40px;
+}
+
+.paragraph {
+  font-family: "Cormorant", serif;
+  font-size: larger;
+}

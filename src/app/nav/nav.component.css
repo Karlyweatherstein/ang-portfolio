@@ -35,13 +35,13 @@ nav ul li {
 .nav ul li span {
   padding: 10px;
   text-decoration: none;
-  color: #3e4a51;
+  color: #ae945c;
   font-size: large;
 }
 
 .nav ul li:hover,
 .nav ul li a:hover,
 .nav ul li span:hover {
-  color: #12141a;
+  color: #7f6835;
   border-radius: 15px;
 }

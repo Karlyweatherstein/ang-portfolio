@@ -6,11 +6,13 @@
 .resume a {
   color: #242734;
   text-decoration: none;
+  list-style: none;
   padding: 0;
 }
 
 .resume a h2 {
-  background-color: #4ec5a0;
+  background-color: #ae945c;
   width: fit-content;
   padding: 10px;
+  margin: auto;
 }
